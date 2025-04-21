@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '20 14 * * *'
+    - cron:  '24 14 * * *'
 
 jobs:
   message:
