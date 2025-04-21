@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '20 14 * * *'
+    - cron:  '25 14 * * *'
 
 jobs:
   message:
@@ -9,5 +9,5 @@ jobs:
     - name: Discord Webhook Action
       uses: tsickert/discord-webhook@v7.0.0
       with:
-        webhook-url: ${{ https://discord.com/api/webhooks/1363866616718164210/Lk5J-W0hwZT-PVNhP8BuQQGJmZOfo5_YinIyBo1ivFeoZdM1JZ9UDqm2WqKabq7Imrq2 }}
+        webhook-url: ${{ https://discord.com/api/webhooks/1363882091292659954/yWEQLzKyO_VgsVn3te02oBLxqtDObpGuXaiuJgZOSvVtlfUTFYg1JsUTzGMXQJV0jZ12 }}
         content: "Test"
